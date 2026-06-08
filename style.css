@@ -349,7 +349,7 @@ body {
   /* TABULEIRO GIGANTE */
 
   .tabuleiro img{
-    width: 2400px;
+    width: 2000px;
 
     max-width: none;
   }
