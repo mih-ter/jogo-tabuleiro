@@ -285,6 +285,8 @@ body {
 @media (max-width: 768px){
 
   body{
+    background: white;
+    background-image: none;
     overflow-x: hidden;
     overflow-y: auto;
     padding: 10px;
@@ -294,13 +296,9 @@ body {
 
   .layout{
     flex-direction: column;
-
     align-items: center;
-
     justify-content: flex-start;
-
     gap: 20px;
-
     min-height: 100vh;
   }
 
@@ -308,15 +306,86 @@ body {
 
   .menu{
     width: 100%;
-
     display: flex;
-
     flex-wrap: wrap;
-
     justify-content: center;
-
     align-items: center;
+    gap: 15px;
+    padding: 10px;
+  }
 
+  /* CARTAS */
+
+  .menu img{
+    width: 95px;
+    height: 135px;
+    border-radius: 12px;
+  }
+
+  /* ÁREA DO TABULEIRO */
+
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-top: -60px;
+  }
+
+  /* TABULEIRO */
+
+  .tabuleiro{
+    padding: 10px;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  /* IMAGEM TABULEIRO */
+
+  .tabuleiro img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  /* DADO */
+
+  #dice3d{
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  /* TEXTO */
+
+  #texto{
+    font-size: 14px;
+    width: 100px;
+    right: 15px;
+    bottom: 5px;
+  }
+
+  /* REGRAS */
+
+  .conteudo-regras img{
+    width: 95%;
+    max-width: 95%;
+  }
+
+  .botoes-regras{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .botoes-regras button{
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+
+}
     gap: 15px;
 
     padding: 10px;
