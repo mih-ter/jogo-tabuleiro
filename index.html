@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jogo de Tabuleiro 3D</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="layout">
+
+    <!-- MENU DE CARTAS -->
+    <div class="menu">
+
+      <img
+        src="osmose.jpeg"
+        alt="Osmose"
+        onclick="clicou('Osmose')"
+      >
+
+      <img
+        src="difusao_simples.jpeg"
+        alt="Difusão Simples"
+        onclick="clicou('Difusão Simples')"
+      >
+
+      <img
+        src="casos_clinicos.jpeg"
+        alt="Casos Clínicos"
+        onclick="clicou('Casos Clínicos')"
+      >
+
+      <img
+        src="difusao_facilitada.jpeg"
+        alt="Difusão Facilitada"
+        onclick="clicou('Difusão Facilitada')"
+      >
+
+    </div>
+
+    <!-- TABULEIRO -->
+    <div class="container">
+
+      <div class="tabuleiro">
+        <img
+          src="tabuleiro.png"
+          alt="Tabuleiro do jogo"
+        >
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- DADO -->
+  <div id="dice-area">
+
+    <div id="texto">
+      Clique no dado 🎲
+    </div>
+
+    <div id="dice3d"></div>
+
+  </div>
+
+  <!-- THREE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+
+  <!-- CARTAS DE OSMOSE -->
+<div id="cartas-osmose">
+
+  <img src="cartaosmose1.jpeg">
+
+  <img src="cartaosmose2.jpeg">
+
+  <img src="cartaosmose3.jpeg">
+
+  <img src="cartaosmose4.jpeg">
+
+  <img src="cartaosmose5.jpeg">
+
+  <img src="cartaosmose6.jpeg">
+
+  <img src="cartaosmose7.jpeg">
+
+  <img src="cartaosmose8.jpeg">
+
+  <img src="cartaosmose9.jpeg">
+
+  <img src="cartaosmose10.jpeg">
+
+  <img src="cartaosmose11.jpeg">
+
+  <img src="cartaosmose12.jpeg">
+
+  <img src="cartaosmose13.jpeg">
+
+  <!-- DIFUSÃO SIMPLES -->
+  <img src="difusao1.jpeg">
+  <img src="difusao2.jpeg">
+  <img src="difusao3.jpeg">
+  <img src="difusao4.jpeg">
+  <img src="difusao5.jpeg">
+  <img src="difusao6.jpeg">
+  <img src="difusao7.jpeg">
+  <img src="difusao8.jpeg">
+  <img src="difusao9.jpeg">
+  <img src="difusao10.jpeg">
+
+  <!-- CASOS CLÍNICOS -->
+  <img src="casos1.jpeg">
+  <img src="casos2.jpeg">
+  <img src="casos3.jpeg">
+  <img src="casos4.jpeg">
+  <img src="casos5.jpeg">
+  <img src="casos6.jpeg">
+  <img src="casos7.jpeg">
+  <img src="casos8.jpeg">
+  <img src="casos9.jpeg">
+  <img src="casos10.jpeg">
+
+  <!-- DIFUSÃO FACILITADA -->
+  <img src="facilitada1.jpeg">
+  <img src="facilitada2.jpeg">
+  <img src="facilitada3.jpeg">
+  <img src="facilitada4.jpeg">
+  <img src="facilitada5.jpeg">
+  <img src="facilitada6.jpeg">
+  <img src="facilitada7.jpeg">
+  <img src="facilitada8.jpeg">
+  <img src="facilitada9.jpeg">
+  <img src="facilitada10.jpeg">
+
+
+  <button id="fechar-cartas">✖</button>
+
+</div>
+<!-- MODAL DAS REGRAS -->
+<div id="modalRegras" class="modal-regras">
+  
+  <div class="conteudo-regras">
+
+    <img id="imagemRegra" src="regra1.png" alt="Regra do jogo">
+
+    <div class="botoes-regras">
+      <button id="btnProxima">Próxima Regra</button>
+      <button id="btnFechar" style="display: none;">Fechar</button>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>
