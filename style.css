@@ -337,36 +337,36 @@ body {
 }
 
 /* =========================
-   MOBILE SUPER AFASTADO
+   MOBILE ULTRA AFASTADO
 ========================= */
 
 @media (max-width: 768px){
 
     body{
-        zoom: 0.55;
-        padding: 80px;
+        zoom: 0.40; /* MAIS PRA TRÁS */
+        padding: 150px;
     }
 
     #tabuleiro{
-        margin-top: 150px;
-        margin-left: 120px;
-        margin-right: 120px;
-        margin-bottom: 150px;
+        margin-top: 250px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 250px;
     }
 
     .cartas-container{
-        gap: 80px;
-        padding: 80px;
+        gap: 120px;
+        padding: 120px;
     }
 
     .carta{
-        margin: 50px;
+        margin: 80px;
     }
 
     button{
-        margin: 40px;
-        padding: 25px 40px;
-        font-size: 22px;
+        margin: 60px;
+        padding: 35px 55px;
+        font-size: 28px;
     }
 
 }
