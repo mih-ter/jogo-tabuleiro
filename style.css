@@ -337,32 +337,36 @@ body {
 }
 
 /* =========================
-   AJUSTE MOBILE
+   AJUSTE MOBILE MAIOR
 ========================= */
 
 @media (max-width: 768px){
 
     body{
-        zoom: 0.85;
+        zoom: 0.75;
+        padding: 30px;
     }
 
     #tabuleiro{
-        margin-top: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-top: 60px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 60px;
     }
 
     .cartas-container{
-        gap: 20px;
-        padding: 20px;
+        gap: 40px;
+        padding: 40px;
     }
 
     .carta{
-        margin: 10px;
+        margin: 25px;
     }
 
     button{
-        margin: 10px;
+        margin: 20px;
+        padding: 15px 25px;
+        font-size: 18px;
     }
 
 }
