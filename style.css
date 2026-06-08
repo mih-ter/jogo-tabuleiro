@@ -371,13 +371,13 @@ body {
 
   /* DADO */
 
-  #dice3d{
-    width: 90px;
-    height: 90px;
+#dice3d{
+    width: 70px;
+    height: 70px;
 
     bottom: 20px;
     right: 20px;
-  }
+}
 
   /* TEXTO */
 
