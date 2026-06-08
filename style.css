@@ -335,3 +335,34 @@ body {
     }
 
 }
+
+/* =========================
+   AJUSTE MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+    body{
+        zoom: 0.85;
+    }
+
+    #tabuleiro{
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .cartas-container{
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .carta{
+        margin: 10px;
+    }
+
+    button{
+        margin: 10px;
+    }
+
+}
