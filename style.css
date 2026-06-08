@@ -19,7 +19,7 @@ body {
 /* LAYOUT */
 .layout {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* MENU */
@@ -383,6 +383,45 @@ body {
   .botoes-regras button{
     font-size: 20px;
     padding: 15px 25px;
+  }
+
+}
+
+@media (max-width: 768px){
+
+  .layout{
+    flex-direction: column;
+  }
+
+  .menu{
+    width: 100%;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    padding: 40px 0;
+  }
+
+  .container{
+    width: 100%;
+
+    justify-content: center;
+
+    padding-left: 0;
+
+    margin-top: 80px;
+
+    margin-bottom: 80px;
+  }
+
+  .tabuleiro img{
+    width: 90vw;
+    max-width: 90vw;
   }
 
 }
