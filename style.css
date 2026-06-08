@@ -319,10 +319,10 @@ body {
     padding-bottom: 80px;
   }
 
-  .menu img{
-    width: 130px;
-    height: 180px;
-  }
+.menu img{
+    width: 260px;
+    height: 360px;
+}
 
   /* TABULEIRO EMBAIXO */
 
@@ -419,9 +419,7 @@ body {
     margin-bottom: 80px;
   }
 
-  .tabuleiro img{
-    width: 90vw;
-    max-width: 90vw;
-  }
-
+.tabuleiro img{
+    width: 1400px;
+    max-width: none;
 }
