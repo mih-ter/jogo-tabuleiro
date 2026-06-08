@@ -370,3 +370,55 @@ body {
     }
 
 }
+
+/* =========================
+   LAYOUT CELULAR
+========================= */
+
+@media (max-width: 768px){
+
+    body{
+        zoom: 0.40;
+        padding: 50px;
+    }
+
+    /* ORGANIZAÇÃO DA TELA */
+
+    .jogo-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* CARTAS EM CIMA */
+
+    .cartas-container{
+        order: 1;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        gap: 40px;
+
+        margin-bottom: 100px;
+    }
+
+    /* TABULEIRO EMBAIXO */
+
+    .tabuleiro-container{
+        order: 2;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 100px;
+    }
+
+    #tabuleiro{
+        margin: 0 auto;
+    }
+
+}
